@@ -2,6 +2,18 @@
     color: white;
 }
 
-.A {
+.Forms {
     text-align: center;
+    color: red;
+    font-size: 25px;
+}
+
+.Loginh1 {
+    text-align: center;
+    color: red;
+    font-size: 75px;  
+}
+
+.Formsize {
+    width: 100000 px;
 }
