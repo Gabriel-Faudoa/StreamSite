@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class Schedule extends Component {
   render() {
     return (
-      <div>
-        <h1>Schedule</h1>
+      <div className="">
+        <h1>To be determined</h1>
       </div>
     );
   }

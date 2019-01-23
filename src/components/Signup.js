@@ -30,7 +30,12 @@ class Signup extends Component {
             <input type="text" name="Password" />
           </label>
           </div>
-          <button className="btn btn-secondary my-2 my-sm-0">Login</button>
+          <br/>
+          <div>
+            <input type="checkbox" id="emailList" name="signUp" value="newsletter" />
+            <label for="emailList">Would you like to recieve news updates via email?</label>
+          </div>
+          <button className="btn btn-secondary my-2 my-sm-0">Create User</button>
         </form>
       </div>
     );
