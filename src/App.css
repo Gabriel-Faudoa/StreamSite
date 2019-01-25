@@ -15,5 +15,12 @@
 }
 
 .Formsize {
-    width: 100000 px;
+    font-size: 100px;
+}
+
+.Ul {
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+    text-align: center;
 }
