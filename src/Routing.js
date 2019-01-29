@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from "./components/Home";
+
 import News from "./components/News";
 import Schedule from "./components/Schedule";
 import About from "./components/About";
@@ -12,8 +12,7 @@ function Routing() {
   return (
     <Router>
       <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/Home" component={Home} />
+      <Route exact path="/" component={News} />
       <Route path="/News" component={News} />
       <Route path="/Schedule" component={Schedule} />
       <Route path="/About" component={About} />
